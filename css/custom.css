@@ -23,6 +23,32 @@ ul.publications img
 	width:150px;
 }
 
+ul.cv>li::before
+{
+  content:"";
+}
+
+ul.cv
+{
+	list-style-type: none;
+	padding:0;
+	position:relative;
+}
+
+ul.cv li
+{
+	margin-left:160px;
+}
+
+ul.cv img
+{
+	position:absolute;
+	left:0px;
+	float:left;
+	width:150px;
+}
+
+
 table.cv
 {
 	border:none;
