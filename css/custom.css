@@ -23,6 +23,32 @@ ul.publications img
 	width:150px;
 }
 
+ul.awards>li::before
+{
+  content:"";
+}
+
+ul.awards
+{
+	list-style-type: none;
+	padding:0;
+	position:relative;
+}
+
+ul.awards li
+{
+	margin-left:160px;
+}
+
+ul.awards img
+{
+	position:absolute;
+	left:0px;
+	float:left;
+	width:150px;
+}
+
+
 ul.cv>li::before
 {
   content:"";
