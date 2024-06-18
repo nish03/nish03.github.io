@@ -76,24 +76,49 @@ ul.awards img
 }
 
 
-ul.cv>li::before
+ul.education>li::before
 {
   content:"";
 }
 
-ul.cv
+ul.education
 {
 	list-style-type: none;
 	padding:0;
 	position:relative;
 }
 
-ul.cv li
+ul.education li
 {
 	margin-left:160px;
 }
 
-ul.cv img
+ul.education img
+{
+	position:absolute;
+	left:0px;
+	float:left;
+	width:150px;
+}
+
+ul.experience>li::before
+{
+  content:"";
+}
+
+ul.experience
+{
+	list-style-type: none;
+	padding:0;
+	position:relative;
+}
+
+ul.experience li
+{
+	margin-left:160px;
+}
+
+ul.experience img
 {
 	position:absolute;
 	left:0px;
