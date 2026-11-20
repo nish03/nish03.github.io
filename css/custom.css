@@ -137,3 +137,8 @@ table.cv td
 	border-left:none;
 	border-right:none;
 }
+
+.page__content p {
+  text-align: justify;
+  hyphens: auto;
+}
