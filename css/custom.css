@@ -138,7 +138,8 @@ table.cv td
 	border-right:none;
 }
 
-.page__content p {
+.page__content p,
+.page__content li {
   text-align: justify;
   hyphens: auto;
 }
